@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    background: url(img/3d-abstract.jpg);
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    min-height: 800px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: rgb(0, 0, 59);
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.left_side {
+    position: relative;
+    background: rgb(235, 237, 100);
+    padding: 40px;
+}
+
+.imgBx {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+#contact-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+#contact-info h1 {
+    color: rgb(0, 0, 59);
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#contact-info p {
+    position: relative;
+    font-size: 0.9em;
+    margin: 10px 0;
+    line-height: 1.2em;
+}
+
+#languages {
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#softSkills {
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#interests {
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+.right_side {
+    position: relative;
+    background: url(img/6997_1.jpg) 100%;
+    padding: 40px;
+}
+
+#desiredPosition h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#hardSkills {
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#experience .box {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+#experience .box .year_company {
+    min-width: 160px;
+}
+
+#experience .box .year_company h4 {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#experience .box .details h3 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+
+#experience .box .details p {
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+#education .box {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+#education .box .year_company {
+    min-width: 360px;
+}
+
+#education .box .year_company h4 {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#education .box .details h3 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+
+#education .box .details p {
+    font-size: 14px;
+    line-height: 1.2em;
+}
