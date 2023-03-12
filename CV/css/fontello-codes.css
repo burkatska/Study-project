@@ -1,4 +1,7 @@
 
-.icon-email:before { content: '\e800'; } /* '' */
-.icon-home:before { content: '\e801'; } /* '' */
-.icon-call:before { content: '\e802'; } /* '' */
+.icon-linkedin:before { content: '\e800'; } /* '' */
+.icon-email:before { content: '\e801'; } /* '' */
+.icon-home:before { content: '\e802'; } /* '' */
+.icon-call:before { content: '\e803'; } /* '' */
+.icon-github-circled-alt2:before { content: '\f056'; } /* '' */
+.icon-telegram:before { content: '\f2c6'; } /* '' */

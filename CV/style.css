@@ -10,7 +10,7 @@ body {
 
 .container {
     position: relative;
-    width: 900px;
+    width: 1000px;
     min-height: 800px;
     border: 10px solid white;
     margin: 0 auto;
@@ -69,9 +69,10 @@ body {
     position: relative;
     font-size: 0.9em;
     line-height: 1.2em;
+    text-align: left;
 }
 
-#softSkills {
+#projects {
     margin-bottom: 15px;
     position: relative;
     font-size: 0.9em;
@@ -99,7 +100,7 @@ body {
 #hardSkills {
     margin-bottom: 15px;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.2em;
 }
 
@@ -107,6 +108,12 @@ body {
     display: flex;
     flex-direction: row;
     margin: 15px 0;
+}
+
+div {
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: justify;
 }
 
 #experience .box .year_company {
